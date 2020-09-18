@@ -1,5 +1,5 @@
 const graphql = require("graphql");
-const Word = require("../models/Word");
+const Word = require("../models/word");
 const Dictonary = require("../dictonary/dictonary");
 const {
   GraphQLObjectType,
