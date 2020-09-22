@@ -10,7 +10,6 @@ const app = express();
 app.use(cors());
 
 // connect to mlab database
-// make sure to replace my db string & creds with your own
 mongoose.connect(
   "mongodb+srv://Test:test123@cluster0.ppd9e.mongodb.net/test?retryWrites=true&w=majority"
 );
